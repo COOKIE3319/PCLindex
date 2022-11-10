@@ -1,5 +1,5 @@
 <local:MyCard>
-	<Image HorizontalAlignment="Center" Source="https://mckintino.oss-cn-shanghai.aliyuncs.com/gq.jpeg" />
+	<Image HorizontalAlignment="Center" Source="https://raw.githubusercontent.com/cookie797/PCLindex/main/gq.jpeg" />
 </local:MyCard >
 <local:MyCard >
     <StackPanel Margin="25,40,23,15">
