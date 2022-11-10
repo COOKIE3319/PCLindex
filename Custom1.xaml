@@ -1,0 +1,53 @@
+<local:MyCard>
+	<Image HorizontalAlignment="Center" Source="https://mckintino.oss-cn-shanghai.aliyuncs.com/gq.jpeg" />
+</local:MyCard >
+
+<local:MyCard>
+	<StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+		<Grid ShowGridLines="false">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition></ColumnDefinition>
+				<ColumnDefinition></ColumnDefinition>
+			</Grid.ColumnDefinitions>
+			<Image Height="150" HorizontalAlignment="Center" Source="https://mckintino.oss-cn-shanghai.aliyuncs.com/index3.png"  Grid.Row="0" Grid.Column="0" />
+			<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" 			 Text="&#xA;
+			&#xA;
+			1介绍文案介绍文案介绍文案 &#xA;
+			
+			" Grid.Row="0" Grid.Column="1"/>
+		</Grid>
+	</StackPanel>
+</local:MyCard>
+<local:MyCard >
+    <StackPanel Margin="25,40,23,15">
+		<local:MyHint IsWarn="False" Text="一切重要事情都会在我们的QQ群内发布 群号:765383741" />
+		
+		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" Text=" " />
+		 
+		<local:MyHint Text="你可能需要在每次启动前检查更新，以保证不会发生错误 " />
+		
+		<local:MyButton Margin="0,8,0,0" Width="200" Height="35" Text="检查更新" EventType="打开文件" EventData="..\.minecraft\ServerSyncClient.exe"  />  
+		
+		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" Text="在弹出的窗口点击开始同步即可" />
+		
+		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" Text=" " />
+		
+		<local:MyButton Margin="0,8,0,0" Width="200" Height="35" Text="刷新主页" EventType="刷新主页" ToolTip="这通常用于联网更新主页时刷新信息，对本地文件没啥用" />
+		
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="更新记录">
+    <StackPanel Margin="25,40,23,15">
+       <TextBlock TextWrapping="Wrap" 
+				  HorizontalAlignment="Left" 
+				  Text="
+				  2022/8/20 发布第一版客户端&#xA;
+				  2022/9/9  游戏内容更新
+				  
+				  " />
+		<TextBlock TextWrapping="Wrap"
+				  HorizontalAlignment="Right" 
+				  Text="该客户端由Beichen and cookie9共同打包" />
+    </StackPanel>
+</local:MyCard>

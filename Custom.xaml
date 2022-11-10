@@ -1,0 +1,32 @@
+<local:MyCard>
+	<Image HorizontalAlignment="Center" Source="https://mckintino.oss-cn-shanghai.aliyuncs.com/gq.jpeg" />
+</local:MyCard >
+<local:MyCard >
+    <StackPanel Margin="25,40,23,15">
+		<local:MyHint Text="你可能需要在每次启动前检查更新，以保证不会发生错误 " />
+		<local:MyHint IsWarn="False" Text="注：第一次启动时会下载游戏资源文件 " />
+		<local:MyButton Margin="0,8,0,0" Width="200" Height="35" Text="检查更新" EventType="打开文件" EventData="..\.minecraft\ServerSyncClient.exe"  />  
+		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" Text="在弹出的窗口点击开始同步即可" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="相关信息">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Text="
+				   游戏版本：1.16.5&#xA;
+				   服务器地址：sq.awa.im:3413&#xA;
+				   &#xA;
+				   主服务器资源提供：@Beichen&#xA;
+				   更新服务器资源提供：@cookie9&#xA;
+				   客户端打包：@cookie9&#xA;
+				   自动更新：@cookie9&#xA;
+				   自动更新技术https://github.com/superzanti/ServerSync&#xA;
+				   启动器：PCL2&#xA;
+				   &#xA;
+				   服务器运维：@beichen @cookie9&#xA;" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="刷新主页">
+	<StackPanel Margin="25,40,23,15">
+		<local:MyButton  Width="200" Height="35" Text="刷新主页" EventType="刷新主页" ToolTip="这通常用于联网更新主页时刷新信息，对本地文件没啥用" />
+	</StackPanel>
+</local:MyCard>
