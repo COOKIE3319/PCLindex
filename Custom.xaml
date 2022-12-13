@@ -1,5 +1,5 @@
 <local:MyCard>
-	<Image HorizontalAlignment="Center" Source="https://raw.githubusercontent.com/cookie797/PCLindex/main/gjr2.jpg" />
+	<Image HorizontalAlignment="Center" Source="https://raw.githubusercontent.com/cookie797/PCLindex/main/gjr2.png" />
 </local:MyCard >2
 <!--
 <local:MyCard >
