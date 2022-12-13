@@ -1,6 +1,6 @@
 <local:MyCard>
-	<Image HorizontalAlignment="Center" Source="https://raw.githubusercontent.com/cookie797/PCLindex/main/gjr.jpg" />
-</local:MyCard >
+	<Image HorizontalAlignment="Center" Source="https://raw.githubusercontent.com/cookie797/PCLindex/main/gjr2.jpg" />
+</local:MyCard >2
 <!--
 <local:MyCard >
     <StackPanel Margin="25,40,23,15">
