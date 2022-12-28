@@ -6,7 +6,7 @@
     <StackPanel Margin="25,40,23,15">
 		<local:MyHint Text="你可能需要在每次启动前检查更新，以保证不会发生错误 " />
 		<local:MyHint IsWarn="False" Text="注：第一次启动时会下载游戏资源文件 " />
-		<local:MyButton Margin="0,8,0,0" Width="200" Height="35" Text="检查更新" EventType="打开文件" EventData="..\.minecraft\ServerSyncClient.exe"  />  
+		<local:MyButton Margin="0,8,0,0" Width="200" Height="35" Text="检查更新" EventType="打开文件" EventData="..\.minecraft\versions\1.18.2-Forge_40.1.92-OptiFine_H7\serversync-3.6.0-all.jar"  />  
 		<TextBlock TextWrapping="Wrap" HorizontalAlignment="Center" Text="在弹出的窗口点击开始同步即可" />
     </StackPanel>
 </local:MyCard>
